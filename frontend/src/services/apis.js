@@ -1,4 +1,4 @@
-const BASE_URL = https://course-craft.onrender.com;
+const BASE_URL = "https://course-craft.onrender.com";
 
 // AUTH ENDPOINTS
 export const endpoints = {
