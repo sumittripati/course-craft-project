@@ -121,7 +121,7 @@ export const fetchCourseCategories = async () => {
   let result = []
 
   try {
-    const response = await apiConnector("GET", "http://localhost:4000/api/v1/course/showAllCategories")
+    const response = await apiConnector("GET", "https://course-craft.onrender.com/api/v1/course/showAllCategories")
     // console.log("COURSE_CATEGORIES_API RESPONSE............", response)
     if (!response?.data?.success) {
       throw new Error("Could Not Fetch Course Categories")
