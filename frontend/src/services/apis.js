@@ -1,4 +1,4 @@
-const BASE_URL = https://course-craft.onrender.com || import.meta.env.VITE_BAS;
+const BASE_URL = https://course-craft.onrender.com;
 
 // AUTH ENDPOINTS
 export const endpoints = {
